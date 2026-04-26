@@ -1,6 +1,6 @@
-let form = document.getElementById("taskForm");
-let input = document.getElementById("taskInput");
-let list = document.getElementById("taskList");
+let form= document.getElementById("taskForm");
+let input =document.getElementById("taskInput");
+let list =document.getElementById("taskList");
 
 form.addEventListener("submit", function(e){
   e.preventDefault();
