@@ -11,9 +11,9 @@ form.addEventListener("submit", function(e){
   let span =document.createElement("span");
   span.textContent= text;
   let completeBtn= document.createElement("button");
-  completeBtn.textContent= "✔";
+  completeBtn.textContent= "OK";
   let deleteBtn= document.createElement("button");
-  deleteBtn.textContent ="✖";
+  deleteBtn.textContent ="X";
 
   completeBtn.addEventListener("click", function(){
     li.classList.toggle("done");
